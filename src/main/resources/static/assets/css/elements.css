@@ -66,8 +66,13 @@
 		- max-width: 360
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 /* + Header */
 /* - Top Header */
+
+*{
+	font-family: 'Noto Sans KR', sans-serif;
+}
 .header_s1 .top-header {
 	background-color: #213455;
 	color: #fff;
@@ -170,6 +175,7 @@
 .top-header .top-login .lang-dropdown .dropdown-menu {
 	left: auto;
 	right: 0;
+	
 }
 
 .top-header .top-social {
@@ -211,7 +217,7 @@
 	border-radius: 5px;
 	color: #b89b5e;
 	display: inline-block;
-	font-family: 'Vollkorn', serif;
+	font-family: 'Noto Sans KR', serif;
 	letter-spacing: 0.56px;
 	padding: 11px 27px;
 	text-transform: uppercase;
@@ -222,8 +228,9 @@
 	color: #fff;
 }
 .header_s .ownavigation .navbar-nav > li a {
-	font-family: 'Vollkorn', serif;
+	font-family: 'Noto Sans KR', serif;
 	font-weight: 400;
+	font-size: 1.2em;
 	letter-spacing: 0.56px;
 }
 .header_s .ownavigation .navbar-nav > li > a {
@@ -325,7 +332,7 @@
 	margin-bottom: 40px;
 }
 .top-footer .widget-title {
-	font-family: 'Vollkorn', serif;
+	font-family: 'Noto Sans KR', serif;
 	font-size: 20px;
 	font-weight: bold;
 	margin-bottom: 45px;
@@ -368,7 +375,7 @@
 .top-footer .widget_categories > ul li a,
 .top-footer .widget_link > ul li a {
 	color: #777777;
-	font-family: 'Vollkorn', serif;
+	font-family: 'Noto Sans KR', serif;
 	font-size: 15px;
 	letter-spacing: 0.6px;
 	text-decoration: none;
@@ -472,7 +479,7 @@
 }
 .bottom-footer p {
 	color: #fff;
-	font-family: 'Vollkorn', serif;
+	font-family: 'Noto Sans KR', serif;
 	font-size: 13px;
 	letter-spacing: 0.52px;
 	text-transform: uppercase;
@@ -483,7 +490,7 @@ footer .bottom-footer .ownavigation.navbar {
 }
 footer .bottom-footer .ownavigation.navbar .navbar-nav > li > a {
 	color: #fff;
-	font-family: 'Vollkorn', serif;
+	font-family: 'Noto Sans KR', serif;
 	font-size: 13px;
 	letter-spacing: 0.52px;
 	padding: 0;
@@ -566,7 +573,7 @@ footer .bottom-footer .ownavigation.navbar .navbar-nav > li > a:hover {
 }
 .section-header h3 {
 	color: #222222;
-	font-family: 'Vollkorn', serif;
+	font-family: 'Noto Sans KR', serif;
 	font-size: 30px;
 	font-weight: bold;
 	letter-spacing: 1.2px;
@@ -577,9 +584,10 @@ footer .bottom-footer .ownavigation.navbar .navbar-nav > li > a:hover {
 
 /* - Page Header */
 .page-banner {
-	background-image: url("../images/page-banner.jpg");
+	background-image: url("/acro/bg/about-bg.jpg") ;
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center center;
 	position: relative;
 	padding-top: 162px;
 	padding-bottom: 161px;
@@ -600,7 +608,7 @@ footer .bottom-footer .ownavigation.navbar .navbar-nav > li > a:hover {
 }
 .page-banner h3 {
 	color: #fff;
-	font-family: 'Vollkorn', serif;
+	font-family: 'Noto Sans KR', serif;
 	font-size: 35px;
 	font-weight: bold;
 	letter-spacing: 1.4px;
@@ -617,7 +625,7 @@ footer .bottom-footer .ownavigation.navbar .navbar-nav > li > a:hover {
 	text-align: center;
 }
 .page-banner .breadcrumb li {
-	font-family: 'Vollkorn', serif;
+	font-family: 'Noto Sans KR', serif;
 	font-size: 16px;
 	font-weight: bold;
 	letter-spacing: 0.64px;
@@ -800,7 +808,7 @@ footer .bottom-footer .ownavigation.navbar .navbar-nav > li > a:hover {
 	color: #b89b5e;
 }
 .feature-box > h4 {
-	font-family: 'Vollkorn', serif;
+	font-family: 'Noto Sans KR', serif;
 	font-size: 16px;
 	letter-spacing: 0.64px;
 	line-height: 26px;
@@ -902,7 +910,7 @@ footer .bottom-footer .ownavigation.navbar .navbar-nav > li > a:hover {
 }
 .about-details-box  > h4 {
 	color: #222222;
-	font-family: 'Vollkorn', serif;
+	font-family: 'Noto Sans KR', serif;
 	font-size: 20px;
 	letter-spacing: 0.8px;
 	line-height: 26px;
@@ -950,7 +958,7 @@ footer .bottom-footer .ownavigation.navbar .navbar-nav > li > a:hover {
 .about-box > h4 {
 	border-left: 1px solid #b89b5e;
 	color: #222222;
-	font-family: 'Vollkorn', serif;
+	font-family: 'Noto Sans KR', serif;
 	font-size: 15px;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -967,7 +975,7 @@ footer .bottom-footer .ownavigation.navbar .navbar-nav > li > a:hover {
 	color: #fff;
 	background-color: #b89b5e;
 	display: inline-block;
-	font-family: 'Vollkorn', serif;
+	font-family: 'Noto Sans KR', serif;
 	font-weight: bold;
 	letter-spacing: 0.56px;
 	padding: 13px 30px;
@@ -995,7 +1003,7 @@ footer .bottom-footer .ownavigation.navbar .navbar-nav > li > a:hover {
 	color: #fff;
 	background-color: #b89b5e;
 	display: inline-block;
-	font-family: 'Vollkorn', serif;
+	font-family: 'Noto Sans KR', serif;
 	font-weight: bold;
 	letter-spacing: 0.56px;
 	padding: 13px 30px;
@@ -1015,7 +1023,7 @@ footer .bottom-footer .ownavigation.navbar .navbar-nav > li > a:hover {
 .work-carousel.owl-theme .owl-controls .owl-nav [class*="owl-"] {
 	background-color: transparent;
 	color: #777777;
-	font-family: 'Vollkorn', serif;
+	font-family: 'Noto Sans KR', serif;
 	font-size: 13px;
 	font-weight: bold;
 	letter-spacing: 0.26px;
@@ -1058,7 +1066,7 @@ footer .bottom-footer .ownavigation.navbar .navbar-nav > li > a:hover {
 }
 .services-section .srv-tab > li > a {
 	border: none;
-	font-family: 'Vollkorn', serif;
+	font-family: 'Noto Sans KR', serif;
 	font-size: 15px;
 	letter-spacing: 0.6px;
 	color: #b89b5e;
@@ -1170,7 +1178,7 @@ footer .bottom-footer .ownavigation.navbar .navbar-nav > li > a:hover {
 }
 .services-content > h3 {
 	color: #b89b5e;
-	font-family: 'Vollkorn', serif;
+	font-family: 'Noto Sans KR', serif;
 	font-size: 24px;
 	font-weight: bold;
 	letter-spacing: 0.96px;
@@ -1199,7 +1207,7 @@ footer .bottom-footer .ownavigation.navbar .navbar-nav > li > a:hover {
 .services-content > a {
 	color: #b89b5e;
 	display: inline-block;
-	font-family: 'Vollkorn', serif;
+	font-family: 'Noto Sans KR', serif;
 	font-size: 15px;
 	font-weight: bold;
 	letter-spacing: 0.60px;
@@ -1232,7 +1240,7 @@ footer .bottom-footer .ownavigation.navbar .navbar-nav > li > a:hover {
 .faq-section .panel-heading h4 a {
 	border-bottom: 1px solid #efefef;
 	color: #b89b5e;
-	font-family: 'Vollkorn', serif;
+	font-family: 'Noto Sans KR', serif;
 	font-size: 15px;
 	font-weight: bold;
 	display: inline-block;
@@ -1307,7 +1315,7 @@ footer .bottom-footer .ownavigation.navbar .navbar-nav > li > a:hover {
 	border-bottom: none;
 	border-radius: 0;
 	color: #222222;
-	font-family: 'Vollkorn', serif;
+	font-family: 'Noto Sans KR', serif;
 	font-size: 15px;
 	font-weight: bold;
 	margin-right: 0;
@@ -1364,7 +1372,7 @@ footer .bottom-footer .ownavigation.navbar .navbar-nav > li > a:hover {
 	color: #b89b5e;
 }
 .latest-post-section .latest-post > span {
-	font-family: 'Vollkorn', serif;
+	font-family: 'Noto Sans KR', serif;
 	font-size: 13px;
 	text-transform: uppercase;
 	letter-spacing: 0.52px;
@@ -1521,7 +1529,7 @@ footer .bottom-footer .ownavigation.navbar .navbar-nav > li > a:hover {
 }
 .team-box > h4 {
 	color: #222222;
-	font-family: 'Vollkorn', serif;
+	font-family: 'Noto Sans KR', serif;
 	font-size: 18px;
 	font-weight: bold;
 	letter-spacing: 0.72px;
@@ -1629,7 +1637,7 @@ footer .bottom-footer .ownavigation.navbar .navbar-nav > li > a:hover {
 }
 .testimonial-box  > h4 {
 	color: #fff;
-	font-family: 'Vollkorn', serif;
+	font-family: 'Noto Sans KR', serif;
 	font-size: 15px;
 	font-weight: bold;
 	letter-spacing: 0.6px;
@@ -1795,7 +1803,7 @@ footer .bottom-footer .ownavigation.navbar .navbar-nav > li > a:hover {
 }
 .newsletter-section .newsletter-box > h3 {
 	color: #fff;
-	font-family: 'Vollkorn', serif;
+	font-family: 'Noto Sans KR', serif;
 	font-size: 28px;
 	font-weight: bold;
 	letter-spacing: 1.12px;
@@ -1856,7 +1864,7 @@ footer .bottom-footer .ownavigation.navbar .navbar-nav > li > a:hover {
 	color: #222222;
 	border-radius: 5px;
 	border: none;
-	font-family: 'Vollkorn', serif;
+	font-family: 'Noto Sans KR', serif;
 	font-size: 15px;
 	padding: 12px 28px 9px;
 	text-transform: uppercase;
@@ -1957,7 +1965,7 @@ footer .bottom-footer .ownavigation.navbar .navbar-nav > li > a:hover {
 }
 .practice-box .content-box > h4 {
 	color: #222222;
-	font-family: 'Vollkorn', serif;
+	font-family: 'Noto Sans KR', serif;
 	font-size: 16px;
 	font-weight: bold;
 	letter-spacing: 0.64px;
@@ -1985,7 +1993,7 @@ footer .bottom-footer .ownavigation.navbar .navbar-nav > li > a:hover {
 	background-color: #213455;
 	color: #fff;
 	display: inline-block;
-	font-family: 'Vollkorn', serif;
+	font-family: 'Noto Sans KR', serif;
 	font-size: 14px;
 	font-weight: bold;
 	letter-spacing: 0.56px;
@@ -2009,7 +2017,7 @@ footer .bottom-footer .ownavigation.navbar .navbar-nav > li > a:hover {
 }
 .service-single-detail > h4 {
 	color: #222222;
-	font-family: 'Vollkorn', serif;
+	font-family: 'Noto Sans KR', serif;
 	font-size: 18px;
 	font-weight: bold;
 	letter-spacing: 1.08px;
@@ -2052,7 +2060,7 @@ footer .bottom-footer .ownavigation.navbar .navbar-nav > li > a:hover {
 .service-single-carousel.owl-theme .owl-controls .owl-nav [class*="owl-"] {
 	background-color: transparent;
 	color: #999898;
-	font-family: 'Vollkorn', serif;
+	font-family: 'Noto Sans KR', serif;
 	font-size: 14px;
 	font-weight: bold;
 	letter-spacing: 0.56px;
@@ -2112,7 +2120,7 @@ footer .bottom-footer .ownavigation.navbar .navbar-nav > li > a:hover {
 .widget_practice .widget-title {
 	background-color: #f6f6f6;
 	color: #222222;
-	font-family: 'Vollkorn', serif;
+	font-family: 'Noto Sans KR', serif;
 	font-size: 16px;
 	font-weight: bold;
 	letter-spacing: 0.96px;
@@ -2158,7 +2166,7 @@ footer .bottom-footer .ownavigation.navbar .navbar-nav > li > a:hover {
 }
 .widget_brochures .widget-title {
 	color: #222222;
-	font-family: 'Vollkorn', serif;
+	font-family: 'Noto Sans KR', serif;
 	font-size: 16px;
 	font-weight: bold;
 	letter-spacing: 0.96px;
@@ -2214,7 +2222,7 @@ footer .bottom-footer .ownavigation.navbar .navbar-nav > li > a:hover {
 /* - Widget : Member */
 .widget_member .widget-title {
 	color: #222222;
-	font-family: 'Vollkorn', serif;
+	font-family: 'Noto Sans KR', serif;
 	font-size: 16px;
 	font-weight: bold;
 	letter-spacing: 0.96px;
@@ -2360,7 +2368,7 @@ footer .bottom-footer .ownavigation.navbar .navbar-nav > li > a:hover {
 	background-color: transparent;
 	border: 1px solid #ffffff;
 	color: #fff;
-	font-family: 'Vollkorn', serif;
+	font-family: 'Noto Sans KR', serif;
 	letter-spacing: 0.56px;
 	text-transform: uppercase;
 	padding: 11px 20px;
@@ -2411,7 +2419,7 @@ footer .bottom-footer .ownavigation.navbar .navbar-nav > li > a:hover {
 	background-color: #b89b5e;
 	border: none;
 	color: #fff;
-	font-family: 'Vollkorn', serif;
+	font-family: 'Noto Sans KR', serif;
 	font-size: 14px;
 	font-weight: bold;
 	letter-spacing: 0.56px;
@@ -2438,7 +2446,7 @@ footer .bottom-footer .ownavigation.navbar .navbar-nav > li > a:hover {
 }
 .calendar-block .fc-center > h2 {
 	color: #fff;
-	font-family: 'Vollkorn', serif;
+	font-family: 'Noto Sans KR', serif;
 	font-size: 16px;
 	font-weight: bold;
 	letter-spacing: 0.64px;
@@ -2485,7 +2493,7 @@ footer .bottom-footer .ownavigation.navbar .navbar-nav > li > a:hover {
 	vertical-align: middle;
 }
 .calendar-block .fc th {
-	font-family: 'Vollkorn', serif;
+	font-family: 'Noto Sans KR', serif;
 	font-size: 15px;
 	letter-spacing: 0.6px;
 	text-transform: uppercase;
@@ -2605,7 +2613,7 @@ footer .bottom-footer .ownavigation.navbar .navbar-nav > li > a:hover {
 }
 .contact-detail-box > h4 {
 	color: #b89b5e;
-	font-family: 'Vollkorn', serif;
+	font-family: 'Noto Sans KR', serif;
 	font-size: 15px;
 	letter-spacing: 0.6px;
 	line-height: 20px;
@@ -2672,7 +2680,7 @@ footer .bottom-footer .ownavigation.navbar .navbar-nav > li > a:hover {
 	background-color: #b89b5e;
 	border: 1px solid #eaeaea;
 	color: #fff;
-	font-family: 'Vollkorn', serif;
+	font-family: 'Noto Sans KR', serif;
 	font-weight: bold;
 	display: inline-block;
 	letter-spacing: 0.56px;
@@ -2775,7 +2783,7 @@ footer .bottom-footer .ownavigation.navbar .navbar-nav > li > a:hover {
 .type-post .entry-header > .post-date > a {
 	color: #fff;
 	display: inline-block;
-	font-family: 'Vollkorn', serif;
+	font-family: 'Noto Sans KR', serif;
 	font-size: 30px;
 	letter-spacing: 1.2px;
 	line-height: 26px;
@@ -2792,7 +2800,7 @@ footer .bottom-footer .ownavigation.navbar .navbar-nav > li > a:hover {
 }
 .type-post .entry-title {
 	color: #222222;
-	font-family: 'Vollkorn', serif;
+	font-family: 'Noto Sans KR', serif;
 	font-size: 18px;
 	font-weight: bold;
 	line-height: 32px;
@@ -2813,7 +2821,7 @@ footer .bottom-footer .ownavigation.navbar .navbar-nav > li > a:hover {
 	width: 100%;
 }
 .type-post .entry-meta > span {
-	font-family: 'Vollkorn', serif;
+	font-family: 'Noto Sans KR', serif;
 	font-size: 12px;
 	letter-spacing: 0.48px;
 	text-transform: uppercase;
@@ -2869,7 +2877,7 @@ footer .bottom-footer .ownavigation.navbar .navbar-nav > li > a:hover {
 }
 .widget-area .widget-title {
 	color: #213455;
-	font-family: 'Vollkorn', serif;
+	font-family: 'Noto Sans KR', serif;
 	font-size: 18px;
 	font-weight: bold;
 	letter-spacing: 0.72px;
@@ -3060,7 +3068,7 @@ article.type-post {
 .type-post .entry-content blockquote > p {
 	color: #777777;
 	padding: 25px 0 25px 65px;
-	font-family: 'Vollkorn', serif;
+	font-family: 'Noto Sans KR', serif;
 	font-size: 16px;
 	font-style: italic;
 	letter-spacing: 0.64px;
@@ -3167,7 +3175,7 @@ article.type-post {
 }
 .social-share > .post-control > a {
 	color: #999898;
-	font-family: 'Vollkorn', serif;
+	font-family: 'Noto Sans KR', serif;
 	font-weight: bold;
 	line-height: 26px;
 	letter-spacing: 0.56px;
@@ -3383,7 +3391,7 @@ article.type-post {
     border: 1px solid transparent;
     border-radius: 0;
     color: #fff;
-	font-family: 'Vollkorn', serif;
+	font-family: 'Noto Sans KR', serif;
     font-size: 15px;
 	line-height: 36px;
     font-weight: bold;
@@ -3443,7 +3451,7 @@ article.type-post {
 }
 .error-content > h4 {
 	color: #213455;
-	font-family: 'Vollkorn', serif;
+	font-family: 'Noto Sans KR', serif;
 	font-size: 38px;
 	font-weight: bold;
 	letter-spacing: 1.52px;
@@ -3458,7 +3466,7 @@ article.type-post {
 }
 .error-content > a { 
 	display: inline-block;
-	font-family: 'Vollkorn', serif;
+	font-family: 'Noto Sans KR', serif;
 	color: rgb(253, 253, 253);
 	font-weight: bold;
 	text-transform: uppercase;
@@ -3648,7 +3656,7 @@ article.type-post {
 
 	.header_s .ownavigation ul li > .dropdown-menu {
 		background-color: #fff;
-		min-width: 175px;
+		min-width: 200px;
 		padding: 13px 25px;
 	}
 	.header_s .ownavigation .navbar-nav li .dropdown-menu > li > a {

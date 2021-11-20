@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+
+
 /*----------
 	Theme Name: Max Law
 	Start Date : 15-Fab-2017
@@ -63,7 +65,7 @@
 		
 ----------*/
 /* 추가 */
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 
 *{
 	font-family: 'Noto Sans KR', sans-serif;
@@ -89,7 +91,7 @@
 /* ## Global ******************************************* */
 
 body {
-	
+	font-family: 'Noto Sans KR', sans-serif;
 	font-size: 14px;
 	color: #000;
 	overflow-x: hidden;
@@ -99,10 +101,12 @@ img {
 	height: auto;
 }
 a {
+	font-family: 'Noto Sans KR', sans-serif;
     outline: 0 !important;
 }
 
 h1,h2,h3,h4,h5,h6,p,a,li,span {
+	font-family: 'Noto Sans KR', sans-serif;
 	word-wrap: break-word;
 }
 
